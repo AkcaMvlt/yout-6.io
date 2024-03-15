@@ -3,86 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TV Viewer</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <title>Elecciones 2021</title>
+    <link rel="stylesheet" href="assets/style2.css">
+    <link rel="shortcut icon" href="https://abs.twimg.com/hashflags/ChileElections_2021/ChileElections_2021.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
+    <header>
+        <div>
+            <h1><div id="live"><i class="icon-live"></i><span>Turis Tv</span></div></h1>
+        </div>
+        <div>
+            <div class="links d-none">
+                <strong class="interes">Te puede interesar: </strong>
+                <div class="link">
+                <a href="https://www.servelelecciones.cl" target="_blank">Resultados Servel</a> 
+                <!--<a href="https://elecciones.visorterritorial.cl" target="_blank">Visor Territorial</a> -->
+                <a href="https://twitter.com/search?q=%23EleccionConsejoConstitucional&src=trend_click&vertical=trends" target="_blank">#EleccionConsejoConstitucional <img src="https://abs.twimg.com/hashflags/ChileElections_2021/ChileElections_2021.png" width="15px" alt=""></a>
+                </div> 
+            </div>
+        </div>
+    </header>
+
     <main>
-       <div class="grid-4">
-           <div class="channel-4">
-               <div id="video">
-                <iframe width="100%" height="270px" src="https://www.youtube.com/embed/QwW63jaHG2A?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-           </div>
-           <div class="channel-4">
-               <div id="video">
-                <iframe width="100%" height="270px" src="https://www.youtube.com/embed/3PCZFXU6n-M?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-           </div>
-           <div class="channel-4">
-               <div id="video">
-                <iframe width="100%" height="270px" src="https://www.youtube.com/embed/DmQ_eCYCwgg?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autopla></iframe>
-            </div>
-           </div>
-           <div class="channel-4">
-               <div id="video">
-                <iframe width="100%" height="270px" src="https://www.youtube.com/embed/82O6yOy_XwE?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-           </div>
-           <div class="channel-4">
-                <div id="video">
-                <iframe width="100%" height="270px" src="https://www.youtube.com/embed/FmFrxFmXqQ4?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-
-           <div class="channel-4">
-                <div id="video">
-                <iframe width="100%" height="270px" src="https://www.youtube.com/watch?v=QkYBMuB6sco" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-
-
-
-           <div class="channel-4">
-                <div id="video">
-                <iframe width="100%" height="270px" src="https://www.youtube.com/watch?v=zmFaUZwKVF4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-
-          <div class="channel-4">
-                <div id="video">
-                <iframe width="100%" height="270px" src="https://www.youtube.com/embed/ueCllY5oIR8?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-
-
-
-             <div class="channel-4">
-                 <div id="video">
-                <iframe width="100%" height="270px" src="https://www.youtube.com/embed/h97NTc4YJMhKS9L9?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                 </div>
-
-
-
-
-
-             </div>
-       </div>
-
-<br>
-<button onclick="document.documentElement.webkitRequestFullScreen()">Full screen</button>
-
-
-<script>
-window.setInterval("reloadIFrame();", 5000);
-
-function reloadIFrame() {
- var frameHolder=document.getElementById('Doyle');
-frameHolder.src="http://www.servelelecciones.cl"
-}
-</script>
+        <div id="grid-channels">
+        </div>
+    </main>
 
     </main>
-    <script src="assets/app.js"></script>
+    <script src="assets/spain.js"></script>
 </body>
 </html>
